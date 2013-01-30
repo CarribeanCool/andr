@@ -3,7 +3,7 @@
 $user = 'trekey_tkeyes';
 $pswd = 'tkeyesdb1';
 $db_database = 'trekey_trekeyes';
-$db_hostname = 'localhost';
+$db_hostname = 'http://box8.host1free.com/phpmyadmin/';
 $db_server = mysql_connect($db_hostname, $user, $pswd);
 if (!$db_server) die("Unable to connect to MySQL: " . mysql_error());
 mysql_select_db($db_database,$db_server)
